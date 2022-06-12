@@ -20,3 +20,6 @@ insert into employee_payroll values
 ('Nutan',33300.0,'2020-09-09'),
 ('Rachit',45000.0,'2022-08-07'),
 ('Jyoti',39000.0,'2021-09-01')
+
+-------------UC4---------------
+select * from employee_payroll
