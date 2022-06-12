@@ -52,3 +52,31 @@ select AVG(salary) from employee_payroll
 select gender from employee_payroll group by gender
 
 select SUM(salary) from employee_payroll group by gender
+
+-----------UC8----------------
+ select * from employee_payroll
+
+alter table employee_payroll add PhoneNo varchar(10)
+
+update employee_payroll set PhoneNo ='7004670887'
+where id='1'
+update employee_payroll set PhoneNo ='2345678965'
+where id='2'
+update employee_payroll set PhoneNo ='9876546789'
+where id='3'
+update employee_payroll set PhoneNo ='8356784569'
+where id='4'
+update employee_payroll set PhoneNo ='9765480877'
+where id='5'
+
+
+
+
+
+
+
+
+
+
+
+
