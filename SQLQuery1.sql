@@ -23,3 +23,8 @@ insert into employee_payroll values
 
 -------------UC4---------------
 select * from employee_payroll
+
+
+-------------UC5---------------
+select * from employee_payroll where name='Pranali';
+select * from employee_payroll where start_date between '2020-01-1'and getdate();
