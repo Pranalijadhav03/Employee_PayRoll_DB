@@ -38,3 +38,17 @@ update employee_payroll set gender='M' where name in('Rachit')
 update employee_payroll set gender='F' where name in ('Pranali','Dipti','Nutan','Jyoti');
 
 select * from employee_payroll
+
+
+-----------UC7------------------
+select SUM(salary) from employee_payroll
+
+select MAX(salary) from employee_payroll
+
+select MIN(salary) from employee_payroll
+
+select AVG(salary) from employee_payroll
+
+select gender from employee_payroll group by gender
+
+select SUM(salary) from employee_payroll group by gender
